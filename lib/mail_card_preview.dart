@@ -44,7 +44,6 @@ class MailPreviewCard extends StatelessWidget {
           listen: false,
         ).currentlySelectedInbox ==
         'Starred';
-
     // TODO: Add Container Transform transition from email list to email detail page (Motion)
     return _OpenContainerWrapper(
       id: id,
